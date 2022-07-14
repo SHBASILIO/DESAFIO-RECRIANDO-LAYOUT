@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color_white: #FFFFFF;
+}
+
+body{
+    height: 100vh;
+    background-color: #2F2E41;
+}
+
+/*== CLASSES AUXILIARES ==*/
+
+.page{
+    width: 100%;
+    padding:0 2%;
+    margin: 0 auto;
+    max-width: 1090px;
+}
+
+span{
+    color: #00BFA6;
+}
+
+/*== ESTILIZAÇÃO HEADER == */
+
+header{
+    padding: 71px 0 101px;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul{
+    color: var(--color_white);
+
+    font-size: 1rem;
+    line-height: 28px;
+    font-family: 'JetBrains Mono', monospace;
+
+    gap: 64px;
+    display: flex;
+    align-items: center;
+}
+
+/*== ESTILIZAÇÃO MAINS ==*/
+
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main h2{
+    font-size: 2rem;
+    line-height: 42px;
+    margin-bottom: 52px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+main .content{
+    padding-left: 82px;
+
+    font-size: 1rem;
+    line-height: 28px;
+    text-align: center;
+    color: var(--color_white);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.content p{
+    font-weight: normal;
+    margin-bottom: 26px;
+}
+
+/*== FOOTER ==*/
+
+footer{ 
+    margin:157px auto 0px;   
+} 
+
+footer p{
+    font-size: 14px;
+    line-height:28px;
+    text-align: center;
+    padding-bottom: 23px;
+    color: var(--color_white);
+    font-family: 'JetBrains Mono', monospace;
+}
+
+footer .line{
+    width: 568px;
+    margin: 0 auto 27px;
+    border: 1px solid #00BFA6;   
+}
+
+.padlock{
+    bottom: 0;
+    padding: 0 0 20px 20px;
+    position: fixed;
+}
